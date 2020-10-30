@@ -1,0 +1,86 @@
+//navigation styles 
+
+header{
+    background-color: $orangey-yellow;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+header li a {
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 29px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+nav li a:hover,
+nav li a:focus {
+
+    font-family: 'Roboto', sans-serif;
+    color: $white-shade;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 29px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.nav-logo {
+    font-family: 'Lora', serif;
+    color: $black;
+    font-size: 4rem;
+    letter-spacing: 0;
+    line-height: 1px;
+    padding: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+// Blog + Contact banner images 
+
+.banner {
+    max-width: 100%;
+}
+
+//home page header styles 
+
+.home-header-container {
+    background-color: $orangey-yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 15rem;
+}
+
+.additional-logo-text {
+    position: relative;
+    transform: translateY(-25px) translateX(-55px);
+
+}
+
+.header-img-sophie {
+    z-index: 10;
+    position: relative;
+    top: 40px;
+    box-shadow: 15px 15px $white;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+
+}

@@ -255,7 +255,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -395,22 +395,17 @@ nav li a:focus {
           align-items: center;
 }
 
-.logo-text {
-  font-size: 15rem;
-}
-
 .additional-logo-text {
   position: relative;
-  -webkit-transform: translateY(-25px) translateX(-55px);
-          transform: translateY(-25px) translateX(-55px);
 }
 
 .header-img-sophie {
+  max-width: 100%;
   z-index: 10;
   position: relative;
-  top: 40px;
-  -webkit-box-shadow: 15px 15px #ffffff;
-          box-shadow: 15px 15px #ffffff;
+  top: 30px;
+  -webkit-box-shadow: 15px 0 15px 0 #ffffff;
+          box-shadow: 15px 0 15px 0 #ffffff;
 }
 
 .logo-container {
@@ -421,7 +416,6 @@ nav li a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 150px;
 }
 
 h1 {
@@ -604,3 +598,4 @@ footer {
   text-align: center;
   padding: 20px 0 20px 0;
 }
+/*# sourceMappingURL=style.css.map */

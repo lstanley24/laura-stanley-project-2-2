@@ -9,64 +9,65 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content.</a>
     <header>
         <div class="wrapper">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li class="header-logo">Sophie</li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="nav-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class="nav-logo">Sophie</li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="home-header-container">
+                <div class="logo-container">
+                    <figure class="additional-logo-text">
+                        <img src="./assets/circle-text.png" alt="curved white text that reads 'it's all about'">
+                    </figure>
+                    <h1 class="logo-text">Sophie</h1>
+                </div>
 
-            <img src="./assets/circle-text.png" alt="text that reads it's all about">
-
-            <h1>Sophie</h1>
-
-            <figure>
-
-                <img src="./assets/blog-image-2.jpg" alt="a woman, Sophie, playfully using a halved orange as her eyes">
-
-            </figure>
-
-            <section>
-
-                <h2>Who Is Sophie?</h2>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum labore, reprehenderit atque necessitatibus
-                quia odit, illum culpa corporis illo beatae iusto obcaecati vel et natus exercitationem expedita. Aut, ex.</p>
-                
-                <a href="#">Find out more</a>
-
-            </section>
+                <figure class="header-img-sophie">
+                    <img src="./assets/blog-image-2.jpg" alt="a woman, Sophie, wears an oversize read sweater and has her hair up in to buns. She playfully uses a halved orange as her eyes.">
+                </figure>
+            </div>
         </div>
     </header>
-    <main>
+    <main id="main-content">
+        <section class="find-out-more">
+            <div class="wrapper">
         
+                <h2>Who Is Sophie?</h2>
+            
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum labore, reprehenderit atque
+                    necessitatibus
+                    quia odit, illum culpa corporis illo beatae iusto obcaecati vel et natus exercitationem expedita. Aut, ex.</p>
+            
+                <a href="#">Find out more</a>
+            </div>    
+        </section>
         <section>
-
             <div class="wrapper">
 
                 <figure>
-
                     <img src="./assets/home-image-2.jpg" alt="a brown dog looking out of the window of an orange car">
-
                 </figure>
 
-                <h2>Sophie's Favourite Things?</h2>
+                <h3>Sophie's Favourite Things?</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum labore, reprehenderit atque necessitatibus quia odit, illum culpa corporis illo beatae iusto obcaecati vel et natus exercitationem expedita. Aut, ex.</p>
 
                 <a href="#">Read More</a>
 
-                <h2>Where's She's Travelled</h2>
+                <h3>Where's She's Travelled</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, culpa. Incidunt tempore repudiandae tempora fugit nemo dicta atque consequuntur inventore sequi, sit amet ex eos placeat voluptatibus vel illum. Vero?</p>
 
                 <a href="#">Read More</a>
 
             </div>
-
         </section>
 
         <section>
@@ -76,24 +77,24 @@
                 
                 <i class="fas fa-image"></i>
 
-                <h3>Photos</h3>
+                <h4>Photos</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam inventore delectus dolore nesciunt, minus error nam accusamus, quae perspiciatis voluptate necessitatibus ipsum quia perferendis corrupti unde excepturi dignissimos totam.</p>
 
                 <i class="fas fa-user"></i>
 
-                <h3>About</h3>
+                <h4>About</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam inventore delectus dolore nesciunt, minus
                 error nam accusamus, quae perspiciatis voluptate necessitatibus ipsum quia perferendis corrupti unde excepturi
                 dignissimos totam.</p>
 
                 <i class="fas fa-desktop"></i>
 
-                <h3>Blog</h3>
+                <h4>Blog</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum aut incidunt, consequuntur placeat libero totam quidem, maxime veniam distinctio, non provident ipsum nisi modi fugiat velit aperiam hic necessitatibus.</p>
 
                 <i class="fas fa-phone"></i>
 
-                <h3>Get in touch</h3>
+                <h4>Get in touch</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum aut incidunt, consequuntur placeat libero totam
                 quidem, maxime veniam distinctio, non provident ipsum nisi modi fugiat velit aperiam hic necessitatibus.</p>
 
@@ -132,7 +133,6 @@
 
     </main>
 
-    <footer>Copyright © 2018 HackerYou | Created at Juno College </footer>
-
+    <footer>Copyright © 2018 HackerYou | Created at Juno College</footer>
 </body>
 </html>

@@ -17,7 +17,7 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
@@ -27,18 +27,57 @@ figure {
 }
 
 .wrapper {
-
-
-
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-
-
-
-
-
-
-header nav {
-    background-color: #f6a823;
+.nav-wrapper {
+    max-width: 1280px;
+    width: 50%;
+    margin: 0 auto;
 }
 
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: $black;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+button,
+find-out-more a {
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    background-color: $accent;
+}
+
+// COLOURS
+
+$black: #2c2c2c;
+$dark-grey-blue: #285e64;
+$orangey-yellow: #f6a823;
+$grey: #4f4f4f;
+$accent: #05afc1;
+$rust-red: #a82706;
+$white-shade: #f0efed;
+$white:  #ffffff;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+    font-size: 2rem;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
